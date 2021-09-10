@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<link rel="stylesheet" href="app.css">
+
+<body>
+    <div class='logo'>
+        <div>
+            <h3>Logo</h3>
+        </div>
+
+        <nav id='menu'>
+
+            <input type='checkbox' id='responsive-menu' onclick='updatemenu()'><label></label>
+            <ul>
+                <li><a class='dropdown-arrow' href='http://'>Products</a>
+                <li><a href='http://'>About</a></li>
+                <ul class='sub-menus'>
+                    <li><a href='http://'>Products Sub Menu </a></li>
+                    <li><a href='http://'>Products Sub Menu 2</a></li>
+                </ul>
+                </li>
+                <li><a class='dropdown-arrow' href='http://'>Services</a>
+                    <ul class='sub-menus'>
+                        <li><a href='http://'>Services Sub Menu </a></li>
+                        <li><a href='http://'>Services Sub Menu </a></li>
+                    </ul>
+                </li>
+                <li><a href='http://'>Contact Us</a></li>
+            </ul>
+        </nav>
+    </div>
+    <!-- Slider Start -->
+
+    <section class="masthead" role="img" aria-label="Image Description">
+        <h1>
+            My Hero
+        </h1>
+        <button>
+            When a hero comes along
+        </button>
+    </section>
+    <!-- Slider End -->
+    <section class="about-section">
+        <div class="about-us">
+            <h2 class="section-heading">ABOUT US</h2>
+            <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+        </div>
+
+        <div class="image-container">
+            <img class="image"
+                src="https://image.freepik.com/free-photo/about-us-information-service-sharing-join-concept_53876-124056.jpg"
+                alt="">
+            <div>
+                <p class="About-paragraphe">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium aut
+                    quas expedita!
+                    <br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi repellat modi autem?
+                </p>
+
+            </div>
+        </div>
+    </section>
+    <div class="container">
+        <div class="card">
+            <img class="image-card" src="https://i.pinimg.com/564x/5a/92/ad/5a92adbd5977897607e8c6ddf5930f2a.jpg"
+                alt="#">
+            <div>
+                <h3 class="sub-title">Hellow</h3>
+                <p class="card-paragraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+            </div>
+        </div>
+        <div class="card">
+            <img class="image-card" src="https://i.pinimg.com/564x/5a/92/ad/5a92adbd5977897607e8c6ddf5930f2a.jpg"
+                alt="#">
+            <div>
+                <h3 class="sub-title">Hellow</h3>
+                <p class="card-paragraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+            </div>
+        </div>
+        <div class="card">
+            <img class="image-card" src="https://i.pinimg.com/564x/5a/92/ad/5a92adbd5977897607e8c6ddf5930f2a.jpg"
+                alt="#">
+            <div>
+                <h3 class="sub-title">Hellow</h3>
+                <p class="card-paragraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+            </div>
+        </div>
+
+    </div>
+
+    <!--  contact-Section-start -->
+
+    <label>
+        <div class="form-section">
+            <form class="form">
+                <input type="text" id="input-name" placeholder="Name">
+                <input type="email" id="input-email" placeholder="Email address">
+                <input type="text" id="input-name" placeholder="Name">
+                <label for="comments">comments</label>
+                <textarea cols="46" rows="3" name="comments"></textarea>
+                </li>
+            </form>
+            <div>
+                <span>Thank</span><br>You
+                <p>We will be intouch shortly!</p>
+            </div>
+        </div>
+    </label>
+
+    <!-- Contact-Section-End -->
+
+    <script src="app.js"></script>
+</body>
+
+</html>
